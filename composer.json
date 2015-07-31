@@ -1,0 +1,23 @@
+{
+  "name": "Phalcon/generic-repository",
+  "type": "library",
+  "description": "By Edward Hieatt and Rob Mee: Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.",
+  "keywords": ["phalcon","generic", "repository", "pattern"],
+  "homepage": "https://github.com/karborator/Phalcon-generic-repository.git",
+  "license": "GNUv2",
+  "authors": [
+    {
+      "name": "Nikolay Yotsov",
+      "email": "karboratorr@gmail.com",
+      "role": "Freelance PHP Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Phalcon-generic-repository": "repository"
+    }
+  }
+}
