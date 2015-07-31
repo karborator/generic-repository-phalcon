@@ -1,5 +1,5 @@
 {
-  "name": "Phalcon/generic-repository",
+  "name": "phalcon/generic-repository",
   "type": "library",
   "description": "By Edward Hieatt and Rob Mee: Mediates between the domain and data mapping layers using a collection-like interface for accessing domain objects.",
   "keywords": ["phalcon","generic", "repository", "pattern"],
