@@ -1,3 +1,4 @@
 /cache/
 /config/development/
 composer.phar
+.idea
