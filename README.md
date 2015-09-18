@@ -1,21 +1,21 @@
 # Phalcon-generic-repository
 Generic repository for Phalcon-framework
 
-Usa copy folder named repository and move somewhere.In my case it will be vendor.
-At phalcon services file
+Move the folder named 'repository 'somewhere in your project.In my case it will be vendor.
+Then, at your services file: 
   	   
-  	    /**
+  	        /**
              * Autoload repository
              */
-            include __DIR_ . "/../../vendor/repository/autoload.php";
+            include __DIR__ . "/../../vendor/repository/autoload.php";
             
             
-	    /**
+	        /**
              * Generic Repository
              */
             $dependencyInjector['repository'] = new GenericRepository($config, 'user');
             
-Controller :
+At some Controller :
 
     /**
      * List all created pages

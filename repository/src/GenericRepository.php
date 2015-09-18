@@ -17,9 +17,9 @@ use Repository\Src\Common\RepositoryMessages;
 class GenericRepository extends AbstractGeneric implements IGeneric, IRepoCore
 {
 
-    public function __construct(\Phalcon\Config $config, $modelName = null)
+    public function __construct(\Phalcon\Config $config, $modelName = null, $entitiesDir = null)
     {
-        parent::__construct($config);
+        parent::__construct($config, $entitiesDir);
         if (!empty($modelName) && !$this->boot($modelName)) {
             echo $this->returnAs('json');
             exit;

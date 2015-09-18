@@ -15,9 +15,9 @@ abstract class AbstractGeneric extends AbstractRepoCore implements IGeneric, IRe
     protected $modelMap;
     protected $model;
 
-    public function __construct(\Phalcon\Config $config)
+    public function __construct(\Phalcon\Config $config , $entitiesDir = null)
     {
-        $this->setModelMap($config->application->modelsDir, 'Minsp\Frontend\Models');
+        $this->setModelMap($config->application->modelsDir, $entitiesDir);
     }
 
     public function setModelMap($dir, $np = null)
